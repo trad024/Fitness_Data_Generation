@@ -4,7 +4,7 @@ This project contains two Python scripts for generating synthetic fitness data a
 
 ## Files
 
-### 1. Data_generation (2) (1).py
+### 1. Data_generation (2).py
 - **Purpose**: Generates synthetic fitness data for multiple users over a specified period.
 - **Functionality**:
   - Creates user profiles with demographic data (age, sex, weight, fitness level, resting heart rate, and fitness goals).
@@ -17,7 +17,7 @@ This project contains two Python scripts for generating synthetic fitness data a
   - Generates heart rate data using a normal distribution based on MET values and user profiles.
   - Simulates a month of data with configurable start and end dates.
 
-### 2. Fitness_agent (2) (1).ipynb
+### 2. Fitness_agent (2).ipynb
 - **Purpose**: Implements a reinforcement learning agent to optimize workout plans.
 - **Functionality**:
   - Defines a `FitnessAgent` class using Q-learning to select actions that adjust workout duration and difficulty.
@@ -30,7 +30,7 @@ This project contains two Python scripts for generating synthetic fitness data a
 
 ## Usage
 1. **Data Generation**:
-   - Run `Data_generation (2) (1).py` to generate synthetic fitness data.
+   - Run `Data_generation (2).py` to generate synthetic fitness data.
    - Modify `start_date`, `end_date`, and `num_users` to customize the simulation period and number of users.
    - Output: JSON files (`user_<id>_data.json`) containing user profiles and daily records.
 
